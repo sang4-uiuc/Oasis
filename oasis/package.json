@@ -1,0 +1,45 @@
+{
+  "name": "newgasman",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "~0.16.2",
+    "chart.js": "^2.5.0",
+    "collections": "^5.0.6",
+    "d3": "^4.9.1",
+    "d3-react-squared": "^0.6.0",
+    "express": "^4.15.3",
+    "jquery": "^3.2.1",
+    "lodash": "^4.17.4",
+    "material-ui": "^0.18.6",
+    "pure-render-mixin": "^1.0.2",
+    "react": "^15.5.4",
+    "react-addons-pure-render-mixin": "^15.6.0",
+    "react-addons-update": "^15.6.0",
+    "react-bars": "^0.1.2",
+    "react-bootstrap": "^0.31.0",
+    "react-d3-components": "^0.6.6",
+    "react-dnd": "^2.4.0",
+    "react-dom": "^15.5.4",
+    "react-donut-chart": "^1.0.5",
+    "react-faux-dom": "^4.0.3",
+    "react-grid-layout": "^0.14.6",
+    "react-promise": "^1.1.3",
+    "react-promise-container": "^0.1.0",
+    "react-redux": "^5.0.5",
+    "react-tap-event-plugin": "^2.0.1",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0",
+    "whatwg-fetch": "^2.0.3"
+  },
+  "devDependencies": {
+    "babel-plugin-recharts": "^1.1.0",
+    "react-scripts": "0.9.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

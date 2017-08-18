@@ -1,0 +1,36 @@
+.server-row {
+  display: table-column-group;
+  background-clip: padding-box; 
+  padding: 0px;
+}
+.server-row .body {
+  color: white;
+  align-content:left;
+  font-weight: lighter;
+  font-family: sans-serif;
+  /* display: flex; */
+  width: 100px;
+  font-size: 11px;
+}
+.server-row .element {
+  float:left;
+  clear:right;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding:0px 0px 1px 1px;
+  /* Shadow */
+  /* -webkit-filter: drop-shadow( 0px 3px 3px rgba(0,0,0,.5) );
+  filter: drop-shadow( 0px 1px 1px rgba(0,0,0,.5) ); */
+}
+.server-row .cell{
+  float:left;
+  padding: 5px; 
+  padding-left: 6px;
+}
+.server-row .plus {
+  font-size: 14px;
+  fill: whitesmoke;
+  font-weight: normal;
+  font-family: sans-serif;
+}

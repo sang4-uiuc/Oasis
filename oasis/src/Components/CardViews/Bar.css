@@ -1,0 +1,28 @@
+.bar-contain {
+    width: 90%;
+    padding-left: 5%;
+    display: inline-block; 
+    border-radius: 2px;
+    /*margin: auto;*/
+    top:15px;
+    /*background: #fff000;*/
+}
+
+.bar-expand {
+    height: 6px;
+    display: inline-block;
+    position: relative;
+
+    /*border-radius: 3px 0 0 3px;*/
+    top: -6px;
+}
+/* Rounding Bar first and last elements */
+.bar-expand:first-child {
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+.bar-expand:last-child {
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+

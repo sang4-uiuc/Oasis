@@ -1,0 +1,48 @@
+
+.App-logo {
+    /* float: left; */
+    display: inline-block;
+    height: 40px;
+}
+
+.App-header {
+    background-color:#323b44;
+    height: 10px;
+    padding: 10px;
+    color: white;
+}
+
+.App-title {
+  /* Shadow */
+    -webkit-filter: drop-shadow( 0px 3px 3px rgba(0,0,0,.5) );
+    filter: drop-shadow( 0px 1px 1px rgba(0,0,0,.5) ); 
+}
+h5:hover{
+    color: gray;
+}
+
+.App-highlight {
+    color: grey;
+}
+
+.App-intro {
+    text-align: left;
+    font-size: large;
+}
+
+.App-Navigation {
+    font-weight: lighter;
+    float: right;
+    padding-right: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.Menu {
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    font-size: 21px;
+    line-height: 10px;
+    padding: 0px 15px;
+}

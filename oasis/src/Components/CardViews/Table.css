@@ -1,0 +1,142 @@
+table { 
+    table-layout: fixed;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border-width: 1px;
+    /*Table background*/
+    background-color: #475163;
+    border-left: 5em;
+    border-radius: 3px;
+    border-spacing: 1px;
+    
+}
+td  {
+    border-spacing: 0px;
+    padding-top: 1px;
+    padding-bottom: 0px;
+    padding-right: 0px;/**/
+}
+tr {
+    line-height: 0px; /* Spacing between rows */
+    display: table-row;
+    border-spacing: 0px;
+    padding-left: 0px;
+    height: 10px;
+    text-align: left;
+}
+th {
+    color: white;
+    text-align: center;
+    font-size: 11px;
+    font-weight: lighter;
+    padding-right: 5px;
+    padding-bottom: 0px;
+    padding-left: 2px;
+    border-collapse: collapse;
+    border: 1px solid #9da0a5;
+    border-radius: 3px;
+    font-family: 'Roboto';
+    
+}
+.div-element {
+    align-content: center;
+    width: 80%;
+    background-color: #475163;
+}
+table tr:first-child th {
+  border-top: 0;
+}
+table tr:last-child th {
+  border-bottom: 0;
+  padding-block-end: 2px;
+}
+table tr:last-child td {
+    padding-bottom: 2px;
+}
+table tr:first-child td {
+    padding-top: 2px;
+}
+.dc-header {
+    border-bottom: 0;
+    text-align: center;
+}
+table tr td:first-child,
+table tr th:first-child {
+  border-left: 0;
+}
+table tr td:last-child,
+table tr th:last-child {
+  border-right: 0;
+}
+/*Right border to background*/
+table td:last-child {
+    padding-right: 7px;
+}
+table:first-child th{
+    padding-left: 5px;     
+}
+text {
+    color: white;
+    font-size:8.5px;
+    font-weight: bolder;
+    position: absolute;
+    z-index: 1;
+}
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+.visuallyhidden {
+position: absolute;
+overflow: hidden;
+clip: rect(0 0 0 0);
+height: 1px; width: 1px;
+margin: -1px; padding: 0;
+border: 0;
+}
+
+/*Showing border for canary*/
+.border {
+    vertical-align: middle;
+    align-content: center;
+    padding: 0px;
+}
+.cell {
+    align-content: center;
+}
